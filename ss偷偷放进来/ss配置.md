@@ -1,7 +1,10 @@
 # 切记，不要宣传，人多了就卡了  
 ## 我们按照系统来进行演示  
-## 配置数据  
-![](https://raw.githubusercontent.com/xunyegege/picgo_repo/master/G%3A%5Cgithub%5Cpicgo_repo74258f025055b1844a47f0d805a84a8.png)
+## 配置的数据    
+![](https://raw.githubusercontent.com/xunyegege/picgo_repo/master/G%3A%5Cgithub%5Cpicgo_repo74258f025055b1844a47f0d805a84a8.png)  
+也有热心网友为我们提供了免费的账号分享网站  
+![](https://raw.githubusercontent.com/xunyegege/picgo_repo/master/G%3A%5Cgithub%5Cpicgo_repoi.gif)  
+free-ss.cf
 ### windows 
 ![](https://raw.githubusercontent.com/xunyegege/picgo_repo/master/G%3A%5Cgithub%5Cpicgo_repossi.gif)  
 你按照我这个文件夹打开顺序去找exe应用，然后打开后在底部任务栏上找到小图标，右击设置服务器，将我发给你们的账号密码传输协议等全输进去就ok。  

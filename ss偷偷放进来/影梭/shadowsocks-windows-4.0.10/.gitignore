@@ -1,0 +1,12 @@
+/.vs/
+Backup/
+bin/
+obj/
+shadowsocks-csharp/shadowsocks-csharp.csproj.user
+TestResults
+*.suo
+
+shadowsocks-csharp/3rd/*
+packages/*
+
+shadowsocks-csharp.sln.DotSettings.user

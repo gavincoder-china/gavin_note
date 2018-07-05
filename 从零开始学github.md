@@ -115,6 +115,7 @@ Gist
 
 这里提一下 README.md ，GitHub 上所有关于项目的详细介绍以及 Wiki 都是基于 Markdown 的，甚至之后在 GitHub 上搭建博客，写博客也是如此，所以如果还不懂 Markdown 语法的，建议先去学习下。  
 
-## Git初识  
+## Git初识    
+嗯，等我有时间。
 
 

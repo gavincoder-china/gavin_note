@@ -1,0 +1,18 @@
+@import url(//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,700,300,400);
+
+h1 {
+  font-size: 20px;
+}
+
+.hello_world { }
+
+.hello_world p {
+  font-weight: normal;
+  color: #ddd;
+}
+
+p{ display: none; }
+
+.past_the_scroll_point {
+  margin-top: 1800px;
+}

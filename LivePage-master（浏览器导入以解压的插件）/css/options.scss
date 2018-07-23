@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #D5E6ED;
+  margin: 0;
+  padding: 0 0 20px 0;
+  min-width: 750px;
+}
+
+a {
+  color: #0198CB;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  overflow: hidden;
+}
+
+section {
+  padding: 12px 20px;
+  background: #fff;
+  border: none;
+  display: block;
+
+  &.review-upsell {
+    text-align: center;
+  }
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  &#host_list {
+    margin-bottom: 16px;
+  }
+
+  li {
+    list-style: none;
+    padding: 3px 0 12px 0;
+    margin: 0;
+    line-height: 100%;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
+
+form {
+  label {
+    display: block;
+    padding: 0;
+  }
+  input[type="checkbox"] {
+    margin-right: 15px;
+  }
+
+  input[type="number"] {
+    width: 48px;
+    margin-left: 6px;
+  }
+}
+
+input[type="range"] {
+  width: 50%;
+  margin-top: 5px;
+}
+
+footer {
+  padding: 0 20px;
+
+  ul {
+    margin: 10px 0;
+    padding: 0;
+    overflow: hidden;
+    color: #42464F;
+    float: left;
+    width: 50%;
+    &:last-child {
+      float: right;
+      text-align: right;
+    }
+    li {
+      list-style: none;
+      padding: 3px 10px 3px 10px;
+      margin: 0;
+    }
+  }
+  a {
+    color: #42464F;
+  }
+}
+
+.allow-access-to-files {
+  width: 100%;
+  max-width: 739px;
+  margin: 0 auto;
+  display: block;
+}

@@ -1,0 +1,11 @@
+{
+  "@options_contribute_and_support": {
+    "message": "Contribute & report bugs via GitHub"
+  },
+  "@options_developed_by": {
+    "message": "Made in London by"
+  },
+  "@options_tweet_me": {
+    "message": "Contact me"
+  }
+}

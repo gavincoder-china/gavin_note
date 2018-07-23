@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title data-i18n-key="@options_title"></title>
+  <link rel="stylesheet" href="/css/options.css">
+</head>
+
+<body>
+  
+  <form id="options" name="options" action="#">
+    <section>
+      <h2 data-i18n-key="@options_h2_url_list"></h2>
+      <ul id="host_list">
+        <li data-i18n-key="@options_url_list_empty"></li>
+      </ul>
+      <input type="button" id="clear_all" value="Clear all" data-i18n-key="@options_clear_all" />
+    </section>
+
+    <section>
+      <h2 data-i18n-key="@options_h2_should_monitor"></h2>
+      <ul>
+        <li>
+          <label>
+            <input id="monitor_css" name="monitor_css" type="checkbox" value="true" />
+            <span data-i18n-key="@language_css"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="monitor_js" name="monitor_js" type="checkbox" value="true" />
+            <span data-i18n-key="@language_javascript"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="monitor_html" name="monitor_html" type="checkbox" value="true" />
+            <span data-i18n-key="@language_html"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="monitor_img" name="monitor_img" type="checkbox" value="true" />
+            <span data-i18n-key="@monitor_img"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="monitor_custom" name="monitor_custom" type="checkbox" value="true" />
+            <span data-i18n-key="@options_livepage_links"></span>
+            - 
+            <em data-i18n-key="@options_livepage_links_note"></em>
+            <em>&lt;link rel=&quot;livePage&quot; href=&quot;/path/to/file.html&quot; /&gt;</em>
+          </label>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n-key="@options_h2_refresh_rate"></h2>
+      <ul>
+        <li>
+          <label>
+            <span data-i18n-key="@options_refresh_rate"></span>
+            <input id="refresh_rate" type="number" name="refresh_rate" min="50" step="25" value="200" required />
+            <span data-i18n-key="@options_refresh_rate_milliseconds"></span>
+          </label>
+          <p><em data-i18n-key="@options_refresh_rate_note"></em></p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n-key="@options_h2_reload_settings"></h2>
+      <ul>
+        <li>
+          <label>
+            <span data-i18n-key="@options_refresh_delay"></span>
+            <input id="refresh_delay" type="number" name="refresh_delay" min="1" step="5" value="250" required />
+            <span data-i18n-key="@options_refresh_delay_milliseconds"></span>
+          </label>
+          <p><em data-i18n-key="@options_refresh_delay_note"></em></p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n-key="@options_h2_advanced_settings"></h2>
+      <ul>
+        <li>
+          <label>
+            <input id="entire_hosts" name="entire_hosts" type="checkbox" value="true" />
+            <span data-i18n-key="@options_entire_hosts"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="skip_external" name="skip_external" type="checkbox" value="true" />
+            <span data-i18n-key="@options_skip_external"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="ignore_anchors" name="ignore_anchors" type="checkbox" value="true" />
+            <span data-i18n-key="@options_ignore_anchors"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="tidy_html" name="tidy_html" type="checkbox" value="true" />
+            <span data-i18n-key="@options_tidy_html"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="ignore_hidden_fields" name=ignore_hidden_fields" type="checkbox" value="true" />
+            <span data-i18n-key="@options_ignore_hidden_fields"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="ignore_inline_js" name="ignore_inline_js" type="checkbox" value="true" />
+            <span data-i18n-key="@options_ignore_inline_js"></span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input id="persist_scroll_points" name="persist_scroll_points" type="checkbox" value="true" />
+            <span data-i18n-key="@options_persist_scroll_points"></span>
+          </label>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n-key="@options_h2_notes"></h2>
+      <p data-i18n-key="@options_allow_access_to_files"></p>
+      <p><img src="/imgs/allow-access-to-files.png" alt="Check allow access to files" class="allow-access-to-files"></p>
+      <p>
+        <span data-i18n-key="@options_review_upsell"></span>
+        <br />
+        <a href="https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh/reviews" target="_blank"><span data-i18n-key="@options_review_link"></span></a>
+      </p>
+    </section>
+
+    </section>
+  </form>
+
+  <footer>
+    <ul>
+      <li><a href="https://github.com/MikeRogers0/LivePage" data-i18n-key="@options_contribute_and_support"></a></li>
+    </ul>
+    <ul>
+      <li>
+        <span data-i18n-key="@options_developed_by"></span>
+        <a href="https://mikerogers.io/">Mike Rogers</a>
+      </li>
+      <li>
+        <span data-i18n-key="@options_tweet_me"></span>
+        <a href="https://twitter.com/MikeRogers0">@MikeRogers0</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="/js/helpers/i18n_helper.js"></script>
+  <script src="/js/settings.js"></script>
+  <script src="/js/livepages.js"></script>
+  <script src="/js/options.js"></script>
+</body>
+
+</html>

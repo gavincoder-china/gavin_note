@@ -1,0 +1,33 @@
+svn 提交文件
+      分布式存储方式  
+      分为存储方式&存储地点&修改权限
+      第一：本地客户机
+      第二：网络服务器
+     
+
+git    版本控制系统
+       提交文件
+      分布式存储方式  
+      分为存储方式&存储地点&修改权限
+      第一：本地客户机
+      第二：网络服务器
+版本控制  
+     多人协作进行项目
+branches  分支
+①同一个项目的不同功能
+②同一个团队的不同成员
+
+github   世界上最大的代码托管平台
+
+
+要做的事
+①安装git
+
+配置一下环境变量
+
+②安装sourcetree
+
+https://github.com/xunyegege/gavin_note/blob/master/SourceTree%E4%B8%AD%E5%A6%82%E4%BD%95%E6%B3%A8%E5%86%8Catlassian%E8%B4%A6%E5%8F%B7.md
+
+③注册个github账号
+

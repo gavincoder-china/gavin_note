@@ -43,4 +43,4 @@ https://blog.csdn.net/chichengit/article/details/80807354
 ###root后面加你的网页包路径  
 ###index后面加你的首页文件名  
 ###保存  退出  
-##然后重启下nginx  （如何重启，自己百度）
+##然后重启下nginx  （如何重启，自己百度）  

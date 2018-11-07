@@ -44,3 +44,4 @@ https://blog.csdn.net/chichengit/article/details/80807354
 ###index后面加你的首页文件名  
 ###保存  退出  
 ##然后重启下nginx  （如何重启，自己百度）  
+重启方法：进入nginx可执行目录sbin下，输入命令./nginx -s reload 即可

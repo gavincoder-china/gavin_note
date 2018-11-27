@@ -1,0 +1,1 @@
+dir /a-d /b *.*>src.txt

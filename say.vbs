@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak"пЛ╟Коийг╢Ск╖╠ф"

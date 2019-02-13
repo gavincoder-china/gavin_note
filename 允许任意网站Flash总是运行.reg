@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00  
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome] 
+
+"AllowOutdatedPlugins"=dword:00000001 
+
+"RunAllFlashInAllowMode"=dword:00000001 
+
+"DefaultPluginsSetting"=dword:00000001 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\PluginsAllowedForUrls] 
+
+"1"="https://*" 
+
+"2"="http://*"
